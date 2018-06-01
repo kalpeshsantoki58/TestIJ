@@ -6,6 +6,7 @@ public class User {
     private String password;
 
     private Address address;
+    private Address homeAddress;
 
     public String getPassword() {
         return password;
@@ -37,5 +38,13 @@ public class User {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public Address getHomeAddress() {
+        return homeAddress;
+    }
+
+    public void setHomeAddress(Address homeAddress) {
+        this.homeAddress = homeAddress;
     }
 }
