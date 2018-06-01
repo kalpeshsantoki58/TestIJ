@@ -6,5 +6,5 @@ public class HelloTester {
         this.msg=msg;
     }
 
-    public void print(){System.out.println(msg);}
+    public void print(){System.out.println("From tester: "+msg);}
 }

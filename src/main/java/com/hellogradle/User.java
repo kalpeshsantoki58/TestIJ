@@ -3,6 +3,8 @@ package com.hellogradle;
 public class User {
     private int id;
     private String name;
+
+    private String username;
     private String password;
 
     private Address address;
@@ -31,11 +33,19 @@ public class User {
         this.name = name;
     }
 
+
     public Address getAddress() {
         return address;
     }
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }
