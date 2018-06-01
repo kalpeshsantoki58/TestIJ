@@ -7,6 +7,8 @@ public class User {
     private String username;
     private String password;
 
+    private Address address;
+
     public String getPassword() {
         return password;
     }
@@ -32,6 +34,13 @@ public class User {
     }
 
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
     public String getUsername() {
         return username;
     }
