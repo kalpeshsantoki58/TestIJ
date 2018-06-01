@@ -3,9 +3,12 @@ package com.hellogradle;
 public class User {
     private int id;
     private String name;
+
+    private String username;
     private String password;
     private String password2;
     private Address address;
+    private Address homeAddress;
 
     public String getPassword() {
         return password;
@@ -45,5 +48,20 @@ public class User {
 
     public void setPassword2(String password2) {
         this.password2 = password2;
+    }
+
+    public Address getHomeAddress() {
+        return homeAddress;
+    }
+
+    public void setHomeAddress(Address homeAddress) {
+        this.homeAddress = homeAddress;
+    }
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }
