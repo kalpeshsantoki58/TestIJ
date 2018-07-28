@@ -6,6 +6,9 @@ public class User {
 
     private String username;
     private String password;
+    private String password2;
+    private Address address;
+    private Address homeAddress;
 
     public String getPassword() {
         return password;
@@ -31,7 +34,29 @@ public class User {
         this.name = name;
     }
 
+    public Address getAddress() {
+        return address;
+    }
 
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public String getPassword2() {
+        return password2;
+    }
+
+    public void setPassword2(String password2) {
+        this.password2 = password2;
+    }
+
+    public Address getHomeAddress() {
+        return homeAddress;
+    }
+
+    public void setHomeAddress(Address homeAddress) {
+        this.homeAddress = homeAddress;
+    }
     public String getUsername() {
         return username;
     }
